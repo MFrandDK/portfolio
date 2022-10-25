@@ -184,7 +184,7 @@ p {
   color: aliceblue;
 }
 
-.hero h2 {
+.hero h1 {
   font-size: 40px;
   margin: 0;
   color: aliceblue;
@@ -215,6 +215,7 @@ p {
 
 }
 
+
 .skills-list {
   color: aliceblue;
   list-style: none;
@@ -232,6 +233,37 @@ p {
   margin-right: 1em;
   color: white;
   font-size: 16px;
+}
+
+.case-hero {
+  max-width: 1024px;
+  margin: 10vh auto;
+  color: aliceblue;
+  display: flex;
+}
+.case-
+.case-hero h1 {
+  font-size: 40px;
+  margin: 0;
+  color: aliceblue;
+}
+.case-hero p {
+  font-size: 26px;
+  color: aliceblue;
+}
+.case-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.case-hero-img {
+  min-width: 20vw;
+}
+.case-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
 }
 
 @media screen and (max-width: 700px) {
