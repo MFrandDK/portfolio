@@ -8,14 +8,14 @@
     <title>Portfolio - Markus</title>
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
-    <script src="./assets/mobile_menu.js" defer></script>
+    <script src="./assets/script.js" defer></script>
 </head>
 
 <body class="background">
     <header class="header">
         <nav class="topnav">
             <div class="logo">
-                <a href="index.html" aria-label="home">LOGO</a>
+                <a href="index.html" aria-label="home"><img src="./assets/img/logo mf.svg" alt="Website Logo"></a>
             </div>
             <div class="navflex">
 
@@ -24,202 +24,125 @@
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact" class="contact-btn">Kontakt</a></li>
                 </ul>
-                <div class="burger">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-
+                
             </div>
-
+            
+            <div class="burger">
+            <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </nav>
     </header>
     <main>
         <!-- About me -->
-        <section  id="about">
+        <section id="about" >
             <div class="hero">
                 <h1 class="title">
-                     
+
                     <span>Markus Frandsen</span>
                 </h1>
                 <h2>Jeg er <span class="fancy">Frontend Udvikler</span></h2>
-                <p>Multimediedesigner under uddannelse som søger udfordringer inden for frontend udvikling og digitale oplevelser</p>
+                <p>Multimediedesigner under uddannelse som søger udfordringer inden for frontend udvikling og digitale
+                    oplevelser.</p>
             </div>
-            
-            <div>
-            <h2>Om mig</h2>
-                <div  class="about-box">
-                    <div>
-                        <div>
-                            <p>Hej! Mit navn er Markus og jeg har en stor interesse i internettets mange muligheder.</p> 
-                               <p> Min interesse i frontend udvikling stammer fra en generel interesse i teknologi fra jeg var helt lille. Jeg er vokset op med computere og altid været fascineret af den værdi teknologi giver til os. </p>
-                               <p>Jeg har derfor en stor interesseret i selv at blive en del af den konstante udvikling og fandt frontend både sjovt og tilpas udfordrende.</p>
-                                <p>Her er et udpluk af teknologier jeg har arbejdet med for nyligt:</p>
+
+            <div class="js-scroll fade-in-bottom">
+                <h2  class="js-scroll slide-left">Om mig</h2>
+                <div class="about-box">
+                    <div  class="js-scroll slide-left">
+                        <div  class="js-scroll slide-left">
+                            <p>Hej! Mit navn er Markus og jeg har en stor interesse i internettets mange muligheder.</p>
+                            <p> Min interesse i frontend udvikling stammer fra en generel interesse i teknologi fra jeg
+                                var helt lille. Jeg er vokset op med computere og altid været fascineret af den værdi
+                                teknologi giver til os. </p>
+                            <p>Jeg har derfor en stor interesseret i selv at blive en del af den konstante udvikling og
+                                fandt frontend både sjovt og tilpas udfordrende.</p>
+                            <p>Her er et udpluk af teknologier jeg har arbejdet med for nyligt:</p>
                         </div>
-                           
-                           <ul class="skills-list">
-                               <li>JavaScript</li>
-                               <li>Vue</li>
-                               <li>Node.js</li>
-                               <li>WordPress</li>
-                           </ul>
-                        </div>
-                        <div class="about-img">
-                           <img src="./assets/img/thumbnail_IMG_0199.jpg" alt="">
-                       </div>
+
+                        <ul class="skills-list js-scroll slide-left">
+                            <li>JavaScript</li>
+                            <li>Vue</li>
+                            <li>Node.js</li>
+                            <li>WordPress</li>
+                        </ul>
+                    </div>
+                    <div class="about-img">
+                        <img src="./assets/img/thumbnail_IMG_0199.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
 
-        
+
         <!-- Portfolio showcase -->
-        <section id="portfolio">
-            <!-- <h2>Portfolio af mine seneste projekter</h2>
-            <div>
+        <section id="portfolio" class="js-scroll fade-in-bottom">
+
+            <h2 class="js-scroll slide-left">Portfolio af mine seneste projekter</h2>
+            <div class="js-scroll slide-left">
                 <p>Under min studietid har jeg arbejdet på en række projekter: </p>
             </div>
-            <ul class="portfolio-list">
-            <li class="portfolio-item">
-                <div class="project-content">
-                    <div>
-                        <h3 class="project-title">Gjøl Kro</h3>
-                        <div class="project-description">
-                            <p>Design og implementering af ny hjemmeside for ekstern samarbejdspartner mellem UCN og Gjøl Kro</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-image">
-                    <a href="" target="_blank" rel="noopener noreferrer">
-                        <div class="img">
-                            <img src="./assets/img/Gjøl-Kro_logo_white (1).svg" alt="">
-
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="portfolio-item"></li>
-            <li class="portfolio-item"></li>
-        </ul> -->
-
-        <div class="blog-card">
-            <div class="meta">
-                <div class="photo">
-                    <img src="./assets/img/Gjøl-Kro_logo_white (1).svg" alt="">
-                </div>
-            </div>
-            <div class="description">
-                <h3>Gjøl Kro</h3>
-                <p>Design og implementering af ny hjemmeside for ekstern samarbejdspartner mellem UCN og Gjøl Kro</p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="container-content">
-                <div class="project-image">
-                    <img src="./assets/img/Gjøl-Kro_logo_white (1).svg" alt="">
-                </div>
-                <h3 class="project-title">Gjøl Kro</h3>
-                <p>Design og implementering af ny hjemmeside for ekstern samarbejdspartner mellem UCN og Gjøl Kro</p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="container-content">
-                <h3 class="project-title">Gjøl Kro</h3>
-                <p>Design og implementering af ny hjemmeside for ekstern samarbejdspartner mellem UCN og Gjøl Kro</p>
-            </div>
-            <div class="project-image">
-                <img src="./assets/img/Henriettes havedesign-logo.png" alt="">
-            </div>
-        </div>
-        <div class="container">
-            <div class="container-content">
-                <h3 class="project-title">Gjøl Kro</h3>
-                <p>Design og implementering af ny hjemmeside for ekstern samarbejdspartner mellem UCN og Gjøl Kro</p>
-            </div>
-            <div class="project-image">
-                <img src="./assets/img/Web 1920 – 1.png" alt="">
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- <h2>Portfolio</h2>
-            <p>Description</p>
             <div>
                 <div class="container">
-                    <div class="box">
+                    <div class="box js-scroll slide-left">
                         <div class="imgBx">
                             <img src="./assets/img/Henriettes havedesign-logo.png">
                         </div>
                         <div class="content">
                             <div>
-                                <h2>Image Title</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias
-                                    quidem iusto.
+                                <h2>Henriette's Havedesign</h2>
+                                <p>Et eksamensprojekt omhandlende en ny hjemmeside og digital kontaktflade for virksomhedens kunder. Løsningen blev realiseret via WordPress.
                                 </p>
+                                <a href="">Se projekt</a>
                             </div>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box js-scroll slide-right">
                         <div class="imgBx">
-                            <img src="./assets/img/Gjøl-Kro_logo_white (1).svg">
+                            <img src="./assets/img/Gjøl-kro-logo.svg">
                         </div>
                         <div class="content">
                             <div>
-                                <h2>Image Title</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias
-                                    quidem iusto.
+                                <h2>Gjøl Kro</h2>
+                                <p>Eksamensprojekt omhandlende mobile first approach og komplekse digitale brugergrænseflader. Eksternt samarbejde mellem UCN og Gjøl Kro.
                                 </p>
+                                <a href="">Se projekt</a>
                             </div>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box js-scroll slide-left">
                         <div class="imgBx">
                             <img src="./assets/img/Web 1920 – 1.png">
                         </div>
                         <div class="content">
                             <div>
-                                <h2>Image Title</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias
-                                    quidem iusto.
+                                <h2>Magic The Gathering Index</h2>
+                                <p>Valgfagsprojekt med fokus på udvikling af en API. Routing, Autorisering via middleware, MSSQL og backend logik er blot nogle af fokuspunkterne for dette projekt.
                                 </p>
+                                <a href="">Se projekt</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </section>
 
         <!-- contact -->
-        <section id="contact">
+        <section id="contact" class="contact js-scroll fade-in-bottom">
             <h2>Kom i kontakt</h2>
-            <p>description</p>
-            <a href="mailto:frandsen_96@yahoo.dk" rel="noopener noreferrer">Send En Hilsen</a>
+            <p>Jeg er altid interesseret i nye udfordringer. Har du et spændende projekt, som mangler en udvikler eller sparringspartner skal du endelig ikke tøve med at skrive!</p>
+            <a href="mailto:frandsen_96@yahoo.dk" rel="noopener noreferrer" class="mail">Send En Hilsen</a>
         </section>
-        <section>
-            <h2>Mine Skills</h2>
+        <section class="back-top">
+            <div>
+                <a href="#top" >&#10514;</a>
+            </div>
 
         </section>
-
     </main>
-    <footer>
-        <a href="#top"></a>
-    </footer>
+    
+    
 </body>
 
 </html>
