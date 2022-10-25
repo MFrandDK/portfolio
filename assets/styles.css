@@ -305,8 +305,34 @@ p {
   z-index: 0;
   height: auto;
 }
-.photo {
-  background-image:url('./img/Gjøl-Kro_logo_white\ \(1\).svg')
+.blog-card .photo {
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('/assets/img/Gjøl-kro-logo.svg');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s;
+}
+.blog-card .description {
+  padding: 1rem;
+  background: #fff;
+  position: relative;
+  z-index: 1; 
+}
+
+.blog-card .description:before {
+  transform: skewX(-3deg);
+  content: "";
+  background: #fff;
+  width: 30px;
+  position: absolute;
+  left: -10px;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 /* .container {
   display: flex;
