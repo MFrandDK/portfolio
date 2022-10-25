@@ -241,7 +241,7 @@ p {
   color: aliceblue;
   display: flex;
 }
-.case-
+
 .case-hero h1 {
   font-size: 40px;
   margin: 0;
@@ -263,6 +263,7 @@ p {
   display: flex;
   justify-content: center;
   width: 100%;
+  
 
 }
 
@@ -280,6 +281,9 @@ p {
 
   .about-img {
     margin: 50px auto 0;
+  }
+  .case-img {
+    flex-wrap: wrap;
   }
   
 

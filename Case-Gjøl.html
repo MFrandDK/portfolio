@@ -20,9 +20,9 @@
             <div class="navflex">
 
                 <ul class="nav-links">
-                    <li><a href="#about">Om mig</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact" class="contact-btn">Kontakt</a></li>
+                    <li><a href="index.html#about">Om mig</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#contact" class="contact-btn">Kontakt</a></li>
                 </ul>
 
             </div>
@@ -49,7 +49,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="js-scroll fade-in-bottom">
             <h2>Casebeskrivelse</h2>
             <div>
                 <p>Projektet var del af en eksamen i digitale brugergrænseflader. I et samarbejde mellem UCN og Gjøl Kro
@@ -65,7 +65,7 @@
                 </p>
             </div>
         </section>
-        <section>
+        <section class="js-scroll fade-in-bottom">
             <h2>Designprocessen</h2>
             <div>
                 <p>Som en del af det udleverede materiale, fik vi et kreativt brief. Med udgangspunkt i dette blev
@@ -81,7 +81,8 @@
                 <img src="./assets/img/informationsarkitektur.png"
                     alt="informationsarkitektur af Gjøl Kro's hjemmeside">
             </div>
-            <div>
+            <section class="js-scroll fade-in-bottom">
+
                 <h3>Mockups og Prototyping</h3>
                 <p>En del af designprocessen var at udarbejde et meningsfuldt layout, baseret på brugerundersøgelser. Da
                     projektet byggede på en mobile first approach, skulle placering af indholdet give mening i den
@@ -93,23 +94,43 @@
                     da dette er interaktive elementer for brugeren. Interaktionen skal give mening og passe til
                     brugernes forventninger. Under prototype udviklingen blev brugerundersøgelser derfor indarbejdet ved
                     større milepæle.</p>
-                    <img src="./assets/img/gjøl kro mobile mockup.PNG" alt="Mockup af mobilversion for gjøl kros hjemmeside">
-            </div>
-        </section>
+                <img src="./assets/img/gjøl kro mobile mockup.jpg"
+                    alt="Mockup af mobilversion for gjøl kros hjemmeside">
+                <p>Som en del af den løbende opskalering skulle desktop versionen af hjemmesiden også udarbejdes. Den
+                    gennemgik en lignende designproces som ved mobilen, men udnyttede også de nye muligheder en større
+                    skræmstørrelse bringer.</p>
 
+            </section>
 
+            <section>
+                <h2>Realisering</h2>
+                <div class="js-scroll fade-in-bottom">
+                    <p>Løsningen blev bygget med HTML, CSS og JS. Med udgangspunkt i en mobile first approach blev
+                        breakpoints for skræmstørrelser løst via @media queries.
+                        Realiseringen var ligeledes en iterativ proces. Nogle elementer blev erstatet eller redesigned
+                        under
+                        kodningen.</p>
+                    <img src="./assets/img/gjøl kro desktop fest.jpg" alt="desktop version af fest og selskaber side">
+                    <h2>Takeaways</h2>
+                    <p>Mit primære fokus under dette projekt har været, at skabe sammenhæng mellem design og
+                        realisering. En
+                        stor del af realiseringen blev udarbejdet ved brug af CSS properties som Grid og Flexbox, for at
+                        skabe et sammenhængende layout der samtidig var fleksibelt nok til flere skærmstørrelser og
+                        flere
+                        undersider. Et sammenhængende layout på tværs af hjemmesiden blev opnået, dels ved brug af
+                        utility
+                        classes som set i moderne pre-processers som SaSS eller Tailwind. Disse kunne blive inkorporeret
+                        med
+                        fordel.</p>
 
+                </div>
+            </section>
+            <section class="back-top">
+                <div>
+                    <a href="#top">&#10514;</a>
+                </div>
 
-
-
-
-
-        <section class="back-top">
-            <div>
-                <a href="#top">&#10514;</a>
-            </div>
-
-        </section>
+            </section>
     </main>
 
 </body>
