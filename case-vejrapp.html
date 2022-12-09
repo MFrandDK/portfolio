@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study - Magic The Gathering Index</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+    <script src="https://kit.fontawesome.com/da91738ff6.js" crossorigin="anonymous"></script>
+    <script src="./assets/script.js" defer></script>
+</head>
+
+<body>
+    <header class="header" id="navbar">
+        <nav class="topnav">
+            <div class="logo">
+                <a href="index.html" aria-label="home"><img src="./assets/img/logo-mf.svg" alt="Website Logo"></a>
+            </div>
+            <div class="navflex">
+
+                <ul class="nav-links">
+                    <li><a href="index.html#about">Forside</a></li>
+                    <li><a href="index.html#portfolio">Cases</a></li>
+                    <li><a href="https://www.linkedin.com/in/markus-frandsen-902328107/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/MFrandDK" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li><a href="index.html#contact" class="contact-btn">Kontakt</a></li>
+                </ul>
+
+            </div>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="case-hero">
+            <div class="case-wrapper">
+
+                <div>
+                    <h1>Vue miniprojekt med API kald</h1>
+                    <p>Selvstudie projekt med udgangspunkt i Vue.js som framework og brug af asynkrone API kald til en vejr api
+                    </p>
+                </div>
+                <div class="case-hero-img">
+                    <img src="./assets/img/screenshot vejrapp.png" alt="API hero billede">
+                </div>
+            </div>
+        </section>
+        <section class="js-scroll fade-in-bottom">
+            <h2>Casebeskrivelse</h2>
+            <div>
+                <p>Miniprojektet var en del af mit selvstudie hvor jeg ville udforske mulighederne ved at bruge Vue som framework.
+                </p>
+                <p>
+                    API'er er en naturlig del af webudvikling. For bedre at forstå hvordan Api'er kan implementeres i projekter, øvede jeg mig på at implementere en api i vue.
+                </p>
+                <h2>Takeaways</h2>
+                <p>Miniprojektet har hjulpet på min forståelse af hvordan man kan bruge vue i praksis. Desuden har den ekstra tilføjelse af en API gjort mig bedre bekendt med asynkrone kald. Selvom projektet er lille, har jeg stadig fået en masse ud af, selv at arbejde med Vue og problemløse de fejl der opstod undervejs. </p>
+            </div>
+        </section>
+        <section class="js-scroll fade-in-bottom">
+            <h2>Designprocessen</h2>
+            <div>
+                <p>Jeg kom op med designet ud fra inspiration fra en lignende løsning. Det bør være klart hvad man kan med appen, hvorfor der er lagt fokus på hvordan informationen vises, samt hvad brugeren kan interagere med. Formidlingen af vejrforhold bygger på en informationsrig, men konkret tankegang, hvor den mest relevante information er gjort større. 
+                </p>
+                
+            </div>
+        </section>
+
+        <section>
+            <h2>Realisering</h2>
+            <div class="js-scroll fade-in-bottom">
+                <p>Da dette er et projekt bygget i Vue, er der nogle forhold man bør være bekendte med. Jeg tog udgangspunkt i de metoder vi har gjort brug af på multimediedesign uddannelsen på UCN, hvor vi har lært hvordan opstilling af vue templates og scripts kan spille en rolle i formidlingen af indholdet. 
+                </p>
+                <p>En stor del af opgaven lå i at udnytte funktionaliteten fra vejr API'en og få informationen bundet korrekt i vue. template sektionen gør i høj grad brug af den indbyggede logik i vue, hvor man kan binde og eksekverer funktioner fra script tagget til templaten.  </p>
+                
+                    <img src="./assets/img/vejrapp template.png" alt="kode snippet a" class="case-img">
+                    <img src="./assets/img/vejrapp script.png" alt="kode snippet af " class="case-img">
+                    
+                
+
+                
+
+            </div>
+        </section>
+        <section class="back-top">
+            <div>
+                <h2>Udforsk mine andre cases</h2>
+                <div>
+                    <h3>Henriette's Havedesign</h2>
+
+                        <a href="case-hhd.html" class="case-links">Se projekt</a>
+                </div>
+                <div>
+                    <h2>Gjøl Kro</h2>
+                    <a href="./case-gjøl.html" class="case-links">Se projekt</a>
+                </div>
+            </div>
+            <div>
+                <a href="#top">&#10514;</a>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>

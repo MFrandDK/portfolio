@@ -11,6 +11,8 @@ body {
   margin: 0 auto;
   background-color: #0f2340;
   font-family: font;
+  line-height: 1.2;
+  
   
 }
 
@@ -44,7 +46,7 @@ main {
 
 section {
   max-width: 1024px;
-  margin: 0 auto 10rem;
+  margin: 0 auto 5rem;
   scroll-margin-top: 100px;
 }
 
@@ -86,9 +88,8 @@ p {
   width: 100%;
   height: 100px;
   background-color: #0f2340;
-  transition: top 0.5s;
-
 }
+
 
 .topnav {
   display: flex;
@@ -113,7 +114,8 @@ p {
   align-items: center;
 }
 
-.nav-links {
+
+.nav-links  {
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -178,8 +180,8 @@ p {
 
 .hero {
   max-width: 1024px;
-  height: 100vh;
-  margin: 10vh auto;
+  height: 80vh;
+  margin: 10rem auto 5rem;
   color: aliceblue;
 }
 
@@ -262,8 +264,10 @@ p {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+.case-img img {
+  width: 30vw;
   
-
 }
 
 @media screen and (max-width: 700px) {
@@ -491,10 +495,33 @@ p {
   bottom: 0;
     height: 100%;
 }
+.case-links {
+  font-size: 24px;
+  padding: 10px;
+  background-color: transparent;
+    border: 1px solid aquamarine;
+    border-radius: 4px;
+}
+.case-links::before {
+  content: '';
+    position: absolute;
+    background-color: rgba(127, 255, 212, 0.572);
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 0px;
+    z-index: -1;
+    transition: all .2s ease-in-out;
+}
+.case-links:hover::before {
+
+  bottom: 0;
+    height: 100%;
+}
 
 .back-top div {
   font-size: 50px;
-  margin: 0;
+  margin: 2rem 0 0;
   text-align: center;
 }
 
