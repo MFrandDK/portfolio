@@ -49,6 +49,14 @@ section {
   margin: 0 auto 5rem;
   scroll-margin-top: 100px;
 }
+#portfolio {
+  max-width: 1024px;
+    margin: 0 auto 5rem;
+    scroll-margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 /* page styling */
 h1 {
